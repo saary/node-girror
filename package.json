@@ -10,18 +10,18 @@
   },
   "main": "main",
   "engines": {
-    "node": "0.8.x"
+    "node": ">4.x"
   },
   "bin": {
     "girror": "bin/girror"
   },
   "dependencies": {
-    "mkdirp": "0.3.x",
+    "mkdirp": "0.5.x",
     "async": "0.1.x",
-    "ctxobj": "0.3.x",
+    "ctxobj": "https://github.com/saary/node-ctxobj.git",
     "commander": "0.5.x",
     "logule": "0.6.x",
-    "rimraf": "2.0.x"
+    "rimraf": "2.6.x"
   },
   "devDependencies": {},
   "optionalDependencies": {},
